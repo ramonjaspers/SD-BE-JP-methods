@@ -5,7 +5,6 @@ package nl.novi.jp.methods.beginner;
  * goodbye() is ook al toegevoegd, maar deze doet nog niets. Zorg ervoor "Goedenavond Nederland" uitprint.
  */
 public class BeginnerOne {
-
     public static void main(String[] args) {
         hello();
         goodbye();
@@ -16,6 +15,6 @@ public class BeginnerOne {
     }
 
     public static void goodbye() {
-
+        System.out.println("Goedenavond Nederalnd");
     }
 }
